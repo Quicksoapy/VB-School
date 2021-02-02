@@ -1,0 +1,17 @@
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\bin\Debug\Project.exe.config
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\bin\Debug\Project.exe
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\bin\Debug\Project.pdb
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\bin\Debug\Project.xml
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.vbprojAssemblyReference.cache
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.Resources.resources
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.vbproj.GenerateResource.cache
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.vbproj.CoreCompileInputs.cache
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.exe
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.xml
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.pdb
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.frmStartform.resources
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.frmQuestion1.resources
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.frmQuestion2.resources
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.frmQuestion3.resources
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.frmQuestion4.resources
+C:\Users\Gamin\Documents\Visual Studio 2017\Projects\Project\Project\obj\Debug\Project.frmQuestion5.resources
