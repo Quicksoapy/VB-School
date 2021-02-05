@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1340
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test1WF", "test1WF\test1WF.csproj", "{06AF4961-FF64-48D9-80A4-8426B44F3906}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Autism Generator", "test1WF\The Autism Generator.csproj", "{06AF4961-FF64-48D9-80A4-8426B44F3906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
