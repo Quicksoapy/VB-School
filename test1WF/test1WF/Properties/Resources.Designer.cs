@@ -63,6 +63,16 @@ namespace test1WF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aids {
+            get {
+                object obj = ResourceManager.GetObject("aids", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap annoyed_angry_young_woman_mad_260nw_1525533650_1 {
             get {
                 object obj = ResourceManager.GetObject("annoyed-angry-young-woman-mad-260nw-1525533650_1", resourceCulture);

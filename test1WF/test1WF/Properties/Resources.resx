@@ -121,13 +121,16 @@
   <data name="annoyed-angry-young-woman-mad-260nw-1525533650_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\annoyed-angry-young-woman-mad-260nw-1525533650_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="confused-attractive-unshaven-man-shrugs-260nw-1151448440_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\confused-attractive-unshaven-man-shrugs-260nw-1151448440_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="senior-beautiful-woman-confused-260nw-525403930" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\senior-beautiful-woman-confused-260nw-525403930.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="portrait-photo-person-project-concept-600w-507830914" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\portrait-photo-person-project-concept-600w-507830914.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="senior-beautiful-woman-confused-260nw-525403930" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\senior-beautiful-woman-confused-260nw-525403930.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="confused-attractive-unshaven-man-shrugs-260nw-1151448440_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\confused-attractive-unshaven-man-shrugs-260nw-1151448440_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aids" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aids.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

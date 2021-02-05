@@ -47,6 +47,7 @@
             this.pbPerson4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPerson4.TabIndex = 7;
             this.pbPerson4.TabStop = false;
+            this.pbPerson4.Click += new System.EventHandler(this.pbPerson4_Click);
             // 
             // pbPerson3
             // 
@@ -57,6 +58,7 @@
             this.pbPerson3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPerson3.TabIndex = 6;
             this.pbPerson3.TabStop = false;
+            this.pbPerson3.Click += new System.EventHandler(this.pbPerson3_Click);
             // 
             // pbPerson2
             // 
@@ -67,6 +69,7 @@
             this.pbPerson2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPerson2.TabIndex = 5;
             this.pbPerson2.TabStop = false;
+            this.pbPerson2.Click += new System.EventHandler(this.pbPerson2_Click);
             // 
             // pbPerson1
             // 
@@ -90,6 +93,7 @@
             this.Controls.Add(this.pbPerson1);
             this.Name = "People";
             this.Text = "People";
+            this.Load += new System.EventHandler(this.People_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbPerson4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPerson3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPerson2)).EndInit();

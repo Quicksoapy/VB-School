@@ -18,32 +18,22 @@ namespace test1WF
             InitializeComponent();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            lblResult.Text = "Lol you got aids xd";
-        }
-
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            lblResult.Text = "You good";
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            lblResult.Text = "You good";
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            lblResult.Text = "You good";
-        }
-
         private void btnStart_Click(object sender, EventArgs e)
         {
-            this.close();
+            var form = new People();
+            form.ShowDialog();
+           
+        }
 
-            people
+        private void lblPic_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://thispersondoesnotexist.com/");
+            
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
