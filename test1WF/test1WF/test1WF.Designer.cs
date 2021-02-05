@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(test1WF));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblResult = new System.Windows.Forms.Label();
+            this.btnStart = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -42,7 +42,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::test1WF.Properties.Resources.annoyed_angry_young_woman_mad_260nw_1525533650_1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -53,7 +52,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::test1WF.Properties.Resources.confused_attractive_unshaven_man_shrugs_260nw_1151448440_1;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox2.Location = new System.Drawing.Point(420, 12);
             this.pictureBox2.Name = "pictureBox2";
@@ -64,7 +62,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::test1WF.Properties.Resources.senior_beautiful_woman_confused_260nw_525403930;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox3.Location = new System.Drawing.Point(420, 391);
             this.pictureBox3.Name = "pictureBox3";
@@ -75,7 +72,6 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::test1WF.Properties.Resources.portrait_photo_person_project_concept_600w_507830914;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox4.Location = new System.Drawing.Point(12, 391);
             this.pictureBox4.Name = "pictureBox4";
@@ -92,11 +88,22 @@
             this.lblResult.Size = new System.Drawing.Size(0, 17);
             this.lblResult.TabIndex = 4;
             // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(198, 12);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(377, 126);
+            this.btnStart.TabIndex = 5;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
             // test1WF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 753);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
@@ -120,6 +127,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Button btnStart;
     }
 }
 

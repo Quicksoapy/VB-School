@@ -10,10 +10,7 @@ using System.Windows.Forms;
 
 namespace test1WF
 {
-    public class random
-    {
-        
-    }
+  
     public partial class test1WF : Form
     {
         public test1WF()
@@ -24,8 +21,6 @@ namespace test1WF
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             lblResult.Text = "Lol you got aids xd";
-            var random = new Random();
-            lblResult.Text = random.Next(1, 5).ToString();
         }
 
 
@@ -42,6 +37,13 @@ namespace test1WF
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             lblResult.Text = "You good";
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            btnStart.Visible = false;
+            var random = new Random();
+            var randomnumber = random.Next(10, 30);
         }
     }
 }
