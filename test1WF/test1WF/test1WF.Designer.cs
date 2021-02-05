@@ -102,7 +102,6 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "test1WF";
             this.Text = "Will you get aids?";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
