@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace test1WF
 {
-  
+
     public partial class test1WF : Form
     {
         public test1WF()
@@ -41,9 +41,9 @@ namespace test1WF
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            btnStart.Visible = false;
-            var random = new Random();
-            var randomnumber = random.Next(10, 30);
+            this.close();
+
+            people
         }
     }
 }
