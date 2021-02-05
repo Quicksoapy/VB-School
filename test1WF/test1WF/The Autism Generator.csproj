@@ -35,6 +35,9 @@
   <PropertyGroup>
     <StartupObject>test1WF.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Autism_Awareness_Ribbon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,11 +58,6 @@
     <Compile Include="People.Designer.cs">
       <DependentUpon>People.cs</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Version.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Version.resx</DependentUpon>
-    </Compile>
     <Compile Include="test1WF.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,10 +68,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="People.resx">
       <DependentUpon>People.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Version.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Version.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="test1WF.resx">
       <DependentUpon>test1WF.cs</DependentUpon>
@@ -117,6 +111,7 @@
     <None Include="Resources\autism.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Autism_Awareness_Ribbon.ico" />
     <Content Include="Resources\Icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -38,5 +38,10 @@ namespace test1WF
         {
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://quicksoapy.nl/programs.html#autismgen");
+        }
     }
 }
