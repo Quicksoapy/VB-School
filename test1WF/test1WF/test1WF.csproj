@@ -104,5 +104,8 @@
   <ItemGroup>
     <None Include="Resources\senior-beautiful-woman-confused-260nw-525403930.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autism.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
