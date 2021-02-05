@@ -20,9 +20,12 @@ namespace test1WF
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            
             var form = new People();
             form.ShowDialog();
-           
+            this.Show();
+            
         }
 
         private void lblPic_Click(object sender, EventArgs e)
