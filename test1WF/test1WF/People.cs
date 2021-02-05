@@ -26,10 +26,6 @@ namespace test1WF
             pbPerson3.Load("https://thispersondoesnotexist.com/image?a=33622434768");
             System.Threading.Thread.Sleep(1002);
             pbPerson4.Load("https://thispersondoesnotexist.com/image?a=34688707547");
-
-
-
-
         }
         private void pbPerson1_Click(object sender, EventArgs e)
         {
@@ -41,7 +37,7 @@ namespace test1WF
 
                 if (rand_num == 1)
                 {
-                    string message = "Lmao that person had aids too bad for you";
+                    string message = "Lmao that person is autistic as fuck too bad for you";
                     string title = "You failed";
 
                     MessageBox.Show(message, title);
@@ -53,7 +49,9 @@ namespace test1WF
                     string title = "Nice";
 
                     MessageBox.Show(message, title);
-                    textBox1.Text += 1;
+                    int result = int.Parse(textBox1.Text) + 1;
+                    string strResult = (result).ToString();
+                    textBox1.Text = strResult;
                     pbPerson1.Load("https://thispersondoesnotexist.com/image?a=37645734567");
                     System.Threading.Thread.Sleep(1002);
                     pbPerson2.Load("https://thispersondoesnotexist.com/image?a=67834562543");
@@ -92,7 +90,9 @@ namespace test1WF
                     string title = "Nice";
 
                     MessageBox.Show(message, title);
-                    textBox1.Text += 1;
+                    int result = int.Parse(textBox1.Text) + 1;
+                    string strResult = (result).ToString();
+                    textBox1.Text = strResult;
                     pbPerson1.Load("https://thispersondoesnotexist.com/image?a=37645734567");
                     System.Threading.Thread.Sleep(1002);
                     pbPerson2.Load("https://thispersondoesnotexist.com/image?a=67834562543");
@@ -125,7 +125,9 @@ namespace test1WF
                     string message = "That person doesn't have autism, good job";
                     string title = "Nice";
                     MessageBox.Show(message, title);
-                    textBox1.Text += 1;
+                    int result = int.Parse(textBox1.Text) + 1;
+                    string strResult = (result).ToString();
+                    textBox1.Text = strResult;
                     pbPerson1.Load("https://thispersondoesnotexist.com/image?a=37645734567");
                     System.Threading.Thread.Sleep(1002);
                     pbPerson2.Load("https://thispersondoesnotexist.com/image?a=67834562543");
@@ -159,7 +161,9 @@ namespace test1WF
                     string title = "Nice";
 
                     MessageBox.Show(message, title);
-                    textBox1.Text += 1;
+                    int result = int.Parse(textBox1.Text) + 1;
+                    string strResult = (result).ToString();
+                    textBox1.Text = strResult;
                     pbPerson1.Load("https://thispersondoesnotexist.com/image?a=37645734567");
                     System.Threading.Thread.Sleep(1002);
                     pbPerson2.Load("https://thispersondoesnotexist.com/image?a=67834562543");
@@ -196,7 +200,9 @@ namespace test1WF
                     string title = "Nice";
 
                     MessageBox.Show(message, title);
-                    textBox1.Text += 1;
+                    int result = int.Parse(textBox1.Text) + 1;
+                    string strResult = (result).ToString();
+                    textBox1.Text = strResult;
                     pbPerson1.Load("https://thispersondoesnotexist.com/image?a=37645734567");
                     System.Threading.Thread.Sleep(1002);
                     pbPerson2.Load("https://thispersondoesnotexist.com/image?a=67834562543");

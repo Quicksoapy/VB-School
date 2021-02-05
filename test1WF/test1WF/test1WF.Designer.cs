@@ -97,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::test1WF.Properties.Resources.aids;
+            this.BackgroundImage = global::test1WF.Properties.Resources.autism;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(782, 353);
             this.Controls.Add(this.lblPicfrom);
@@ -107,7 +107,7 @@
             this.Controls.Add(this.btnStart);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "test1WF";
-            this.Text = "The Aidsgenerator";
+            this.Text = "The Autismgenerator";
             this.TransparencyKey = System.Drawing.Color.White;
             this.ResumeLayout(false);
             this.PerformLayout();
