@@ -113,10 +113,28 @@ namespace Launcher
             this.Close();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfdSaveTime = new SaveFileDialog();
+            sfdSaveTime.InitialDirectory = GetFilePath("C:/");
+            sfdSaveTime.Title = "Save text Files";
+            sfdSaveTime.CheckFileExists = true;
+            sfdSaveTime.CheckPathExists = true;
+            sfdSaveTime.DefaultExt = "txt";
+            sfdSaveTime.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            sfdSaveTime.FilterIndex = 2;
+            sfdSaveTime.RestoreDirectory = true;
+            if (sfdSaveTime.ShowDialog() == DialogResult.OK)
+            {
+                txtCustom1.Text = sfdSaveTime.FileName;
+            }
+        }
+
     }
 }
 

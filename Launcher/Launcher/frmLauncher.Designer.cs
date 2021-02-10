@@ -39,8 +39,8 @@
             this.txtCustom2 = new System.Windows.Forms.TextBox();
             this.btnCustom1 = new System.Windows.Forms.Button();
             this.btnCustom2 = new System.Windows.Forms.Button();
-            this.fbCustom1 = new System.Windows.Forms.FolderBrowserDialog();
             this.btnClose = new System.Windows.Forms.Button();
+            this.sfdSavetime = new System.Windows.Forms.SaveFileDialog();
             this.btnSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbCustom2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCustom1)).BeginInit();
@@ -168,6 +168,10 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // sfdSavetime
+            // 
+            this.sfdSavetime.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            // 
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(371, 263);
@@ -221,8 +225,8 @@
         private System.Windows.Forms.TextBox txtCustom2;
         private System.Windows.Forms.Button btnCustom1;
         private System.Windows.Forms.Button btnCustom2;
-        private System.Windows.Forms.FolderBrowserDialog fbCustom1;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.SaveFileDialog sfdSavetime;
         private System.Windows.Forms.Button btnSave;
     }
 }
