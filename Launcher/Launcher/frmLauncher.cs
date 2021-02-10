@@ -57,9 +57,7 @@ namespace Launcher
         {
             if (pbCustom1.Tag == "Default1")
             {
-                string message = "a";
-                string title = "b";
-                MessageBox.Show(message, title);
+                MessageBox.Show("a", "b");
             } 
             else
             {
@@ -73,9 +71,7 @@ namespace Launcher
         {
             if (pbCustom2.Tag == "Default2")
             {
-                string message = "a";
-                string title = "b";
-                MessageBox.Show(message, title);
+                MessageBox.Show("a", "b");
             }
             else
             {
