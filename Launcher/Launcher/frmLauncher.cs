@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -57,7 +58,8 @@ namespace Launcher
         {
             if (pbCustom1.Tag == "Default1")
             {
-                MessageBox.Show("a", "b");
+                var cumlist = cumfunny();
+                MessageBox.Show(cumlist[0], cumlist[1]);
             } 
             else
             {
@@ -71,7 +73,8 @@ namespace Launcher
         {
             if (pbCustom2.Tag == "Default2")
             {
-                MessageBox.Show("a", "b");
+                var cumlist = cumfunny();
+                MessageBox.Show(cumlist[0], cumlist[1]);
             }
             else
             {
@@ -93,6 +96,26 @@ namespace Launcher
             pbCustom2.Tag = "NotDefault2";
             string firstcustom2 = txtCustom2.Text;
             pbCustom2.Image = Icon.ExtractAssociatedIcon(firstcustom2).ToBitmap();
+        }
+
+        private List<string> cumfunny()
+        {
+            var cumlist = new List<string>();
+            string message = "cum is funny haha";
+            string title = "peepeepoopoo";
+            cumlist.Add(message);
+            cumlist.Add(title);
+            return cumlist;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

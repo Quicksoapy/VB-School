@@ -39,6 +39,9 @@
             this.txtCustom2 = new System.Windows.Forms.TextBox();
             this.btnCustom1 = new System.Windows.Forms.Button();
             this.btnCustom2 = new System.Windows.Forms.Button();
+            this.fbCustom1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbCustom2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCustom1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDiscord)).BeginInit();
@@ -48,7 +51,7 @@
             // lblDarkMode
             // 
             this.lblDarkMode.AutoSize = true;
-            this.lblDarkMode.Location = new System.Drawing.Point(12, 203);
+            this.lblDarkMode.Location = new System.Drawing.Point(9, 268);
             this.lblDarkMode.Name = "lblDarkMode";
             this.lblDarkMode.Size = new System.Drawing.Size(60, 13);
             this.lblDarkMode.TabIndex = 0;
@@ -58,7 +61,7 @@
             // lblLightMode
             // 
             this.lblLightMode.AutoSize = true;
-            this.lblLightMode.Location = new System.Drawing.Point(12, 190);
+            this.lblLightMode.Location = new System.Drawing.Point(12, 255);
             this.lblLightMode.Name = "lblLightMode";
             this.lblLightMode.Size = new System.Drawing.Size(60, 13);
             this.lblLightMode.TabIndex = 1;
@@ -67,7 +70,7 @@
             // 
             // lblReset
             // 
-            this.lblReset.Location = new System.Drawing.Point(343, 171);
+            this.lblReset.Location = new System.Drawing.Point(436, 12);
             this.lblReset.Name = "lblReset";
             this.lblReset.Size = new System.Drawing.Size(87, 45);
             this.lblReset.TabIndex = 6;
@@ -155,11 +158,33 @@
             this.btnCustom2.UseVisualStyleBackColor = true;
             this.btnCustom2.Click += new System.EventHandler(this.btnCustom2_Click);
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(452, 263);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 11;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(371, 263);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 12;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 225);
+            this.ClientSize = new System.Drawing.Size(539, 291);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnCustom2);
             this.Controls.Add(this.btnCustom1);
             this.Controls.Add(this.txtCustom2);
@@ -196,6 +221,9 @@
         private System.Windows.Forms.TextBox txtCustom2;
         private System.Windows.Forms.Button btnCustom1;
         private System.Windows.Forms.Button btnCustom2;
+        private System.Windows.Forms.FolderBrowserDialog fbCustom1;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnSave;
     }
 }
 
