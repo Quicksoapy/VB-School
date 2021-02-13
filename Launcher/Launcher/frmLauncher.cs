@@ -121,7 +121,7 @@ namespace Launcher
         private void btnSave_Click(object sender, EventArgs e)
         {
             SaveFileDialog sfdSaveTime = new SaveFileDialog();
-            sfdSaveTime.InitialDirectory = GetFilePath("C:/");
+            sfdSaveTime.InitialDirectory = @"C:\";
             sfdSaveTime.Title = "Save text Files";
             sfdSaveTime.CheckFileExists = true;
             sfdSaveTime.CheckPathExists = true;
