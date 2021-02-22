@@ -127,25 +127,34 @@
   <data name="Graphics-Card-PNG-Transparent-HD-Photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Graphics-Card-PNG-Transparent-HD-Photo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="KeyboardFnKeys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KeyboardFnKeys.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vraag5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vraag5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="purepng.com-cpu-processorelectronicscpuprocessor-941524672527kysg5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\purepng.com-cpu-processorelectronicscpuprocessor-941524672527kysg5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="msi-b450m_mortar-led-mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\msi-b450m_mortar-led-mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="purepng.com-ramelectronicsram-941524673871z6dnm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purepng.com-ramelectronicsram-941524673871z6dnm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="k740-refresh-gallery-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\k740-refresh-gallery-image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="purepng.com-ramelectronicsram-941524673871z6dnm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\purepng.com-ramelectronicsram-941524673871z6dnm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="msi-b450m_mortar-led-mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msi-b450m_mortar-led-mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vraag5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vraag5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="z607-merida-pdp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z607-merida-pdp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="KeyboardFnKeys" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\KeyboardFnKeys.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2021-02-22 140716" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2021-02-22 140716.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="akrales_200611_4051_0011.0.0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\akrales_200611_4051_0011.0.0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

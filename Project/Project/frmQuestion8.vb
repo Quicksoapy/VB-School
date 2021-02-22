@@ -1,6 +1,8 @@
-﻿Public Class frmQuestion7
+﻿Public Class frmQuestion8
     Private Sub btnFields_Click(sender As Object, e As EventArgs) Handles btnAnswer2.Click
-        MessageBox.Show("The answer you've chosen is incorrect", "Incorrect", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        Me.Hide()
+        frmQuestion9.Show()
+
     End Sub
 
     Private Sub btnSectors_Click(sender As Object, e As EventArgs) Handles btnAnswer.Click
@@ -8,8 +10,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnAnswer3.Click
-        Me.Hide()
-        frmQuestion8.Show()
+        MessageBox.Show("The answer you've chosen is incorrect", "Incorrect", MessageBoxButtons.OK, MessageBoxIcon.Warning)
 
     End Sub
 

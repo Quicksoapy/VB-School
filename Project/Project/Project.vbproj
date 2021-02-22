@@ -106,6 +106,18 @@
     <Compile Include="frmQuestion7.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmQuestion8.Designer.vb">
+      <DependentUpon>frmQuestion8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuestion8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuestion9.Designer.vb">
+      <DependentUpon>frmQuestion9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuestion9.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmStartform.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +169,12 @@
     <EmbeddedResource Include="frmQuestion7.resx">
       <DependentUpon>frmQuestion7.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQuestion8.resx">
+      <DependentUpon>frmQuestion8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuestion9.resx">
+      <DependentUpon>frmQuestion9.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStartform.resx">
       <DependentUpon>frmStartform.vb</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +214,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Desktop-Computer-PNG-File.ico" />
+    <None Include="Resources\akrales_200611_4051_0011.0.0.jpg" />
+    <None Include="Resources\z607-merida-pdp.png" />
+    <None Include="Resources\Screenshot 2021-02-22 140716.png" />
+    <None Include="Resources\KeyboardFnKeys.jpg" />
     <None Include="Resources\k740-refresh-gallery-image.png" />
     <None Include="Resources\hdd-disk.png" />
     <None Include="Resources\vraag5.png" />
