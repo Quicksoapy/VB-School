@@ -100,6 +100,12 @@
     <Compile Include="frmQuestion5.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmQuestion7.Designer.vb">
+      <DependentUpon>frmQuestion7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuestion7.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmStartform.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     <EmbeddedResource Include="frmQuestion5.resx">
       <DependentUpon>frmQuestion5.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmQuestion7.resx">
+      <DependentUpon>frmQuestion7.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStartform.resx">
       <DependentUpon>frmStartform.vb</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +196,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Desktop-Computer-PNG-File.ico" />
+    <None Include="Resources\k740-refresh-gallery-image.png" />
     <None Include="Resources\hdd-disk.png" />
     <None Include="Resources\vraag5.png" />
     <None Include="Resources\Graphics-Card-PNG-Transparent-HD-Photo.png" />

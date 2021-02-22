@@ -33,7 +33,9 @@ Partial Class frmQuestion3
         'lblQuestion3
         '
         Me.lblQuestion3.AutoSize = True
+        Me.lblQuestion3.BackColor = System.Drawing.Color.Transparent
         Me.lblQuestion3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.21!)
+        Me.lblQuestion3.ForeColor = System.Drawing.Color.White
         Me.lblQuestion3.Location = New System.Drawing.Point(4, 9)
         Me.lblQuestion3.Name = "lblQuestion3"
         Me.lblQuestion3.Size = New System.Drawing.Size(499, 39)
@@ -79,7 +81,7 @@ Partial Class frmQuestion3
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Project.My.Resources.Resources.background
-        Me.ClientSize = New System.Drawing.Size(506, 223)
+        Me.ClientSize = New System.Drawing.Size(518, 223)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)

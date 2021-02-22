@@ -14,7 +14,7 @@
         If txtAnswer.Text = "726" Then
             Me.Hide()
             frmQuestion4.Show()
-        ElseIf MessageBox.Show("The answer you've chosen is incorrect, or it is not a number", "Incorrect", MessageBoxButtons.OK, MessageBoxIcon.Warning) Then
+        Else MessageBox.Show("The answer you've chosen is incorrect, or it is not a number", "Incorrect", MessageBoxButtons.OK, MessageBoxIcon.Warning)
 
         End If
     End Sub

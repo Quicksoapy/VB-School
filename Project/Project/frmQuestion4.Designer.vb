@@ -44,6 +44,8 @@ Partial Class frmQuestion4
         '
         'lblQuestion4
         '
+        Me.lblQuestion4.BackColor = System.Drawing.Color.Transparent
+        Me.lblQuestion4.ForeColor = System.Drawing.Color.White
         Me.lblQuestion4.Location = New System.Drawing.Point(82, 315)
         Me.lblQuestion4.Name = "lblQuestion4"
         Me.lblQuestion4.Size = New System.Drawing.Size(543, 23)

@@ -46,7 +46,9 @@ Partial Class frmQuestion1
         '
         'lblQuestion1
         '
+        Me.lblQuestion1.BackColor = System.Drawing.Color.Transparent
         Me.lblQuestion1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.11!)
+        Me.lblQuestion1.ForeColor = System.Drawing.Color.White
         Me.lblQuestion1.Location = New System.Drawing.Point(12, 442)
         Me.lblQuestion1.Name = "lblQuestion1"
         Me.lblQuestion1.Size = New System.Drawing.Size(508, 23)

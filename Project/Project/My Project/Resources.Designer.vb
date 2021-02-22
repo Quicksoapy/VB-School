@@ -103,6 +103,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property k740_refresh_gallery_image() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("k740-refresh-gallery-image", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property KeyboardFnKeys() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("KeyboardFnKeys", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property msi_b450m_mortar_led_mask() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("msi-b450m_mortar-led-mask", resourceCulture)

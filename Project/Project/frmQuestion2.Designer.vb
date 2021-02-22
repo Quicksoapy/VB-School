@@ -39,7 +39,9 @@ Partial Class frmQuestion2
         'lblQuestion2
         '
         Me.lblQuestion2.AutoSize = True
+        Me.lblQuestion2.BackColor = System.Drawing.Color.Transparent
         Me.lblQuestion2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.21!)
+        Me.lblQuestion2.ForeColor = System.Drawing.Color.White
         Me.lblQuestion2.Location = New System.Drawing.Point(71, 9)
         Me.lblQuestion2.Name = "lblQuestion2"
         Me.lblQuestion2.Size = New System.Drawing.Size(422, 39)
@@ -84,6 +86,7 @@ Partial Class frmQuestion2
         '
         'picGPU
         '
+        Me.picGPU.BackColor = System.Drawing.Color.Transparent
         Me.picGPU.Image = Global.Project.My.Resources.Resources.Graphics_Card_PNG_Transparent_HD_Photo
         Me.picGPU.Location = New System.Drawing.Point(391, 61)
         Me.picGPU.Name = "picGPU"
@@ -94,6 +97,7 @@ Partial Class frmQuestion2
         '
         'picCPU
         '
+        Me.picCPU.BackColor = System.Drawing.Color.Transparent
         Me.picCPU.Image = Global.Project.My.Resources.Resources.purepng_com_cpu_processorelectronicscpuprocessor_941524672527kysg5
         Me.picCPU.Location = New System.Drawing.Point(205, 61)
         Me.picCPU.Name = "picCPU"
@@ -104,6 +108,7 @@ Partial Class frmQuestion2
         '
         'picRAM
         '
+        Me.picRAM.BackColor = System.Drawing.Color.Transparent
         Me.picRAM.Image = Global.Project.My.Resources.Resources.purepng_com_ramelectronicsram_941524673871z6dnm
         Me.picRAM.Location = New System.Drawing.Point(16, 61)
         Me.picRAM.Name = "picRAM"

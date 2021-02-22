@@ -24,7 +24,7 @@ Partial Class frmQuestion5
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmQuestion5))
         Me.picQuestion5 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblQuestion5 = New System.Windows.Forms.Label()
         Me.btnBacktostart = New System.Windows.Forms.Button()
         Me.btnSectors = New System.Windows.Forms.Button()
         Me.btnFields = New System.Windows.Forms.Button()
@@ -43,16 +43,16 @@ Partial Class frmQuestion5
         Me.picQuestion5.TabIndex = 0
         Me.picQuestion5.TabStop = False
         '
-        'Label1
+        'lblQuestion5
         '
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label1.Location = New System.Drawing.Point(70, 347)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(332, 23)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "What are those fields called?"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblQuestion5.BackColor = System.Drawing.Color.Transparent
+        Me.lblQuestion5.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.lblQuestion5.Location = New System.Drawing.Point(70, 347)
+        Me.lblQuestion5.Name = "lblQuestion5"
+        Me.lblQuestion5.Size = New System.Drawing.Size(332, 23)
+        Me.lblQuestion5.TabIndex = 1
+        Me.lblQuestion5.Text = "What are those fields called?"
+        Me.lblQuestion5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnBacktostart
         '
@@ -95,12 +95,12 @@ Partial Class frmQuestion5
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Project.My.Resources.Resources.background
-        Me.ClientSize = New System.Drawing.Size(472, 508)
+        Me.ClientSize = New System.Drawing.Size(472, 434)
         Me.Controls.Add(Me.btnSpaces)
         Me.Controls.Add(Me.btnFields)
         Me.Controls.Add(Me.btnSectors)
         Me.Controls.Add(Me.btnBacktostart)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblQuestion5)
         Me.Controls.Add(Me.picQuestion5)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmQuestion5"
@@ -112,7 +112,7 @@ Partial Class frmQuestion5
     End Sub
 
     Friend WithEvents picQuestion5 As PictureBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblQuestion5 As Label
     Friend WithEvents btnBacktostart As Button
     Friend WithEvents btnSectors As Button
     Friend WithEvents btnFields As Button
