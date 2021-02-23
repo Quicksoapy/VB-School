@@ -96,7 +96,7 @@ Partial Class frmQuestion9
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Project.My.Resources.Resources.background
-        Me.ClientSize = New System.Drawing.Size(493, 450)
+        Me.ClientSize = New System.Drawing.Size(480, 450)
         Me.Controls.Add(Me.btnAnswer3)
         Me.Controls.Add(Me.btnAnswer2)
         Me.Controls.Add(Me.btnAnswer)

@@ -34,3 +34,6 @@ C:\Users\Gamin\Documents\GitHub\VB-School\Project\Project\obj\Debug\Project.exe
 C:\Users\Gamin\Documents\GitHub\VB-School\Project\Project\obj\Debug\Project.xml
 C:\Users\Gamin\Documents\GitHub\VB-School\Project\Project\obj\Debug\Project.pdb
 C:\Users\Gamin\Documents\GitHub\VB-School\Project\Project\obj\Debug\Project.frmQuestion7.resources
+C:\Users\Gamin\Documents\GitHub\VB-School\Project\Project\obj\Debug\Project.frmQuestion10.resources
+C:\Users\Gamin\Documents\GitHub\VB-School\Project\Project\obj\Debug\Project.frmQuestion8.resources
+C:\Users\Gamin\Documents\GitHub\VB-School\Project\Project\obj\Debug\Project.frmQuestion9.resources

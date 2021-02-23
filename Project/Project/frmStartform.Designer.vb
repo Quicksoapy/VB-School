@@ -25,6 +25,7 @@ Partial Class frmStartform
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmStartform))
         Me.btnStart = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
+        Me.lblAmount = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnStart
@@ -47,21 +48,34 @@ Partial Class frmStartform
         Me.btnClose.Text = "CLOSE"
         Me.btnClose.UseVisualStyleBackColor = False
         '
+        'lblAmount
+        '
+        Me.lblAmount.AutoSize = True
+        Me.lblAmount.BackColor = System.Drawing.Color.Transparent
+        Me.lblAmount.ForeColor = System.Drawing.Color.White
+        Me.lblAmount.Location = New System.Drawing.Point(375, 9)
+        Me.lblAmount.Name = "lblAmount"
+        Me.lblAmount.Size = New System.Drawing.Size(0, 17)
+        Me.lblAmount.TabIndex = 2
+        '
         'frmStartform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Project.My.Resources.Resources.background
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblAmount)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnStart)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmStartform"
         Me.Text = "Quiz"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents btnStart As Button
     Friend WithEvents btnClose As Button
+    Friend WithEvents lblAmount As Label
 End Class

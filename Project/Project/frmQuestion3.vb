@@ -15,7 +15,7 @@
             Me.Hide()
             frmQuestion4.Show()
         Else MessageBox.Show("The answer you've chosen is incorrect, or it is not a number", "Incorrect", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-
+            frmStartform.incorrect += 1
         End If
     End Sub
 End Class

@@ -22,7 +22,22 @@ Project
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Project.My.Resources.Resources.akrales_200611_4051_0011_0_0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project.My.Resources.Resources.akrales_200611_4051_0011_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Project.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project.My.Resources.Resources.ezgif_1_02cfb6a17c42">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -47,6 +62,11 @@ Project
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Project.My.Resources.Resources.KeyboardFnKeys">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Project.My.Resources.Resources.msi_b450m_mortar_led_mask">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -62,7 +82,17 @@ Project
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Project.My.Resources.Resources.Screenshot_2021_02_22_140716">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Project.My.Resources.Resources.vraag5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project.My.Resources.Resources.z607_merida_pdp">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
