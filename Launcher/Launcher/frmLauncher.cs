@@ -33,7 +33,6 @@ namespace Launcher
         {
             this.BackColor = ColorTranslator.FromHtml("#bab6f7");
             this.ForeColor = ColorTranslator.FromHtml("#000000");
-
         }
 
         private void frmMain_Load(object sender, EventArgs e)
@@ -62,7 +61,7 @@ namespace Launcher
         {
             if (pbCustom1.Tag == "Default1")
             {
-                var cumlist = cumfunny();
+                var cumlist = msgbox();
                 MessageBox.Show(cumlist[0], cumlist[1]);
             } 
             else
@@ -77,8 +76,8 @@ namespace Launcher
         {
             if (pbCustom2.Tag == "Default2")
             {
-                var cumlist = cumfunny();
-                MessageBox.Show(cumlist[0], cumlist[1]);
+                var msglist = msgbox();
+                MessageBox.Show(msglist[0], msglist[1]);
             }
             else
             {
@@ -101,15 +100,15 @@ namespace Launcher
             string firstcustom2 = txtCustom2.Text;
             pbCustom2.Image = Icon.ExtractAssociatedIcon(firstcustom2).ToBitmap();
         }
-
-        private List<string> cumfunny()
+        //cumfunny > msgbox and cumlist > msglist
+        private List<string> msgbox() 
         {
-            var cumlist = new List<string>();
-            string message = "cum is funny haha";
-            string title = "peepeepoopoo";
-            cumlist.Add(message);
-            cumlist.Add(title);
-            return cumlist;
+            var msglist = new List<string>();
+            string message = "You haven't added any exe, cringe";
+            string title = "Bruh";
+            msglist.Add(message);
+            msglist.Add(title);
+            return msglist;
         }
 
         private void btnClose_Click(object sender, EventArgs e)
