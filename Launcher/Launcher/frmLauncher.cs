@@ -25,6 +25,8 @@ namespace Launcher
             this.ForeColor = ColorTranslator.FromHtml("#ffffff");
             btnClose.ForeColor = ColorTranslator.FromHtml("#000000");
             btnSave.ForeColor = ColorTranslator.FromHtml("#000000");
+            btnCustom1.ForeColor = ColorTranslator.FromHtml("#000000");
+            btnCustom2.ForeColor = ColorTranslator.FromHtml("#000000");
         }
 
         private void lblLightMode_Click(object sender, EventArgs e)
