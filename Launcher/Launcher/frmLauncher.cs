@@ -100,7 +100,7 @@ namespace Launcher
             string firstcustom2 = txtCustom2.Text;
             pbCustom2.Image = Icon.ExtractAssociatedIcon(firstcustom2).ToBitmap();
         }
-        //cumfunny > msgbox and cumlist > msglist
+        
         private List<string> msgbox() 
         {
             var msglist = new List<string>();
