@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Launcher" Height="450" Width="800"
+        Background="#060425">
+
+    <DockPanel Width="50" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Menu">
+                <MenuItem Header="_Options" Click="mnuOptions_Click"/>
+                <MenuItem Header="_Save" Click="btnSave_Click"/>
+                <MenuItem Header="_Info" Click="mnuInfo_Click"/>
+                <Separator />
+                <MenuItem Header="_Exit" Click="btnClose_Click" />
+            </MenuItem>
+        </Menu>
+        
+        
+    </DockPanel>
+    
+        
+
+
+    
+
+</Window>
