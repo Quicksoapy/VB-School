@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="Information" Height="300" Width="600" Background="#060425">
-    
-    <Grid>
+
+    <DockPanel>
         
-    </Grid>
+    </DockPanel>
 </Window>

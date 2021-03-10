@@ -18,13 +18,14 @@
                 <MenuItem Header="_Exit" Click="btnClose_Click" />
             </MenuItem>
         </Menu>
-        
-        
+        <Image Source="Resources/custom.png" Height="100" Width="100" Margin="100, 0, 0, 0"></Image>
+        <Image Source="Resources/custom.png" Height="100" Width="100" Margin="150, 0, 0, 0"></Image>
+        <Image Source="Resources/custom.png" Height="100" Width="100" Margin="250, 0, 0, 0"></Image>
     </DockPanel>
-    
-        
 
 
-    
+
+
+
 
 </Window>

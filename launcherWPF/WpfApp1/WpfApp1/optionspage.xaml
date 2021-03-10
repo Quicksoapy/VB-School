@@ -9,7 +9,7 @@
         Background="#060425">
     
     <Grid>
-        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" TextElement.Foreground="White" Checked="rbLight">Light Mode</RadioButton>
-        <RadioButton HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0" TextElement.Foreground="White" IsChecked="True" Checked="rbDark">Dark Mode</RadioButton>
+        <RadioButton Name="CumMode" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" TextElement.Foreground="White" Checked="rbLight">Light Mode</RadioButton>
+        <RadioButton Name="ShitMode" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0" TextElement.Foreground="White" Checked="rbDark">Dark Mode</RadioButton>
     </Grid>
 </Window>

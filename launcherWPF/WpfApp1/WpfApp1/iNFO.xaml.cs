@@ -22,6 +22,14 @@ namespace WpfApp1
         public iNFO()
         {
             InitializeComponent();
+            if (Options.CumZone)
+            {
+                this.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
+            }
+            else
+            {
+                this.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
+            }
         }
     }
 }

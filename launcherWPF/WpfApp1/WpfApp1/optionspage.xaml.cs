@@ -23,19 +23,25 @@ namespace WpfApp1
         {
             _mainwindow = mainWindow;
             InitializeComponent();
+            CumMode.IsChecked = CumZone;
+            ShitMode.IsChecked = !CumZone;
+
         }
         private void rbLight(object sender, RoutedEventArgs e)
         {
             this.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
             _mainwindow.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
+            CumZone = true;
         }
 
         private void rbDark(object sender, RoutedEventArgs e)
         {
             this.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
             _mainwindow.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
+            CumZone = false;
         }
         MainWindow _mainwindow;
+        public static bool CumZone = false;
 
     }
 }
