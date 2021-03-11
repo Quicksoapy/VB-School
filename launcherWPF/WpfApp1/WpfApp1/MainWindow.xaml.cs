@@ -23,6 +23,10 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            
+            
+                this.dateText.Content = DateTime.Now.ToString("HH:mm");
+            
         }
 
        
@@ -56,5 +60,6 @@ namespace WpfApp1
             MenuItem mi = sender as MenuItem;
             mi.IsSubmenuOpen = false;
         }
+        
     }
 }
