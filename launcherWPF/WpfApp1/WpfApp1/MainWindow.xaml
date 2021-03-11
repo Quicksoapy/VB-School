@@ -9,9 +9,9 @@
         Background="#060425"
         Icon="Resources/largetile.ico">
 
-    <DockPanel Width="45" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
+    <WrapPanel Width="800" Height="450" HorizontalAlignment="Left" VerticalAlignment="Top">
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_Menu">
+            <MenuItem Header="_Menu" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave">
                 <MenuItem Header="_Options" Click="mnuOptions_Click"/>
                 <MenuItem Header="_Save" Click="btnSave_Click"/>
                 <MenuItem Header="_Info" Click="mnuInfo_Click"/>
@@ -20,10 +20,9 @@
             </MenuItem>
         </Menu>
         
-        <Image Source="Resources/aa.png" Height="100" Width="100" Margin="100, 0, 0, 0" Stretch="Fill"/>
-        <Image Source="https://pbs.twimg.com/profile_images/612966782157103104/XkrSVKoM.jpg" Height="100" Width="100" Margin="150, 0, 0, 0"></Image>
-        <Image Source="Resources/custom.png" Height="100" Width="100" Margin="250, 0, 0, 0"></Image>
-    </DockPanel>
+
+
+    </WrapPanel>
 
 
 

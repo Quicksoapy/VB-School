@@ -45,5 +45,16 @@ namespace WpfApp1
         {
             new iNFO().Show();
         }
+        private void MenuItem_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MenuItem mi = sender as MenuItem;
+            mi.IsSubmenuOpen = true;
+        }
+
+        private void MenuItem_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MenuItem mi = sender as MenuItem;
+            mi.IsSubmenuOpen = false;
+        }
     }
 }
