@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="Information" Height="300" Width="600" Background="#060425">
 
-    <DockPanel>
-        
-    </DockPanel>
+    <Grid>
+        <TextBlock Margin="10,10,0,0" TextElement.Foreground="White">
+            Hey, thanks for downloading! This launcher is made in an WPF app and written using C#.<LineBreak></LineBreak>
+            Why did i make this? I don't know, i felt like it lol.
+        </TextBlock>
+        <Label Margin="10,0,0,10" MouseLeftButtonUp="lblWebsite"  TextElement.Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Left">Click here for my website, quicksoapy.nl</Label>
+    </Grid>
 </Window>

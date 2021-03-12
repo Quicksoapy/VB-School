@@ -31,5 +31,9 @@ namespace WpfApp1
                 this.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
             }
         }
+        private void lblWebsite(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://quicksoapy.nl/");
+        }
     }
 }
