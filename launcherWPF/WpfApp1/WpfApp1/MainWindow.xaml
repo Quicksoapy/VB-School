@@ -17,7 +17,7 @@
                 <MenuItem Header="_Save" Click="btnSave_Click"/>
                 <MenuItem Header="_Info" Click="mnuInfo_Click"/>
                 <Separator />
-                <MenuItem Header="_Exit" Click="btnClose_Click" />
+                <MenuItem Header="_Exit" Click="btnClose_Click"/>
             </MenuItem>
         </Menu>
         <Label TextElement.Foreground="White" x:Name="dateText" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>

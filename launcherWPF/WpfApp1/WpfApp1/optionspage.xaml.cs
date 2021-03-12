@@ -31,7 +31,8 @@ namespace WpfApp1
         {
             this.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
             _mainwindow.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
-            this.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+            CumMode.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+            ShitMode.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
             CumZone = true;
         }
 
@@ -39,7 +40,8 @@ namespace WpfApp1
         {
             this.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
             _mainwindow.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
-            this.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+            CumMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+            ShitMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
             CumZone = false;
         }
         MainWindow _mainwindow;
