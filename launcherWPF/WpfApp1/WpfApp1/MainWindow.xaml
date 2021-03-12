@@ -20,7 +20,7 @@
                 <MenuItem Header="_Exit" Click="btnClose_Click"/>
             </MenuItem>
         </Menu>
-        <Label TextElement.Foreground="White" x:Name="dateText" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+        <Label x:FieldModifier="public" TextElement.Foreground="White" x:Name="dateText" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
 
 
     </Grid>

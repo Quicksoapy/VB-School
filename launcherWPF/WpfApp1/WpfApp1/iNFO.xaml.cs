@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Runtime.CompilerServices;
+using System.ComponentModel;
 
 namespace WpfApp1
 {
@@ -21,6 +23,7 @@ namespace WpfApp1
     {
         public iNFO()
         {
+
             InitializeComponent();
             if (Options.CumZone)
             {
@@ -35,5 +38,7 @@ namespace WpfApp1
         {
             System.Diagnostics.Process.Start("https://quicksoapy.nl/");
         }
+        
     }
+    
 }
