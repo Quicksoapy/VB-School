@@ -54,8 +54,8 @@ namespace WpfApp1
 
         private void rbDark(object sender, RoutedEventArgs e)
         {
-            this.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
-            _mainwindow.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
+            DisplayMode.DarkMode(this);
+            DisplayMode.DarkMode(_mainwindow);
             CumMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
             ShitMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
             

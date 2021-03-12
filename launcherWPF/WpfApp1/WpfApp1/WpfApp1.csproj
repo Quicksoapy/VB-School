@@ -67,6 +67,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DisplayMode.cs" />
     <Compile Include="iNFO.xaml.cs">
       <DependentUpon>iNFO.xaml</DependentUpon>
     </Compile>
