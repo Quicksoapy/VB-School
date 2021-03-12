@@ -28,10 +28,14 @@ namespace WpfApp1
             if (Options.CumZone)
             {
                 this.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
+                lblWebsitee.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+                textthings.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
             }
             else
             {
                 this.Background = new SolidColorBrush(Color.FromRgb(0, 4, 37));
+                lblWebsitee.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+                textthings.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
             }
         }
         private void lblWebsite(object sender, RoutedEventArgs e)
@@ -40,5 +44,5 @@ namespace WpfApp1
         }
         
     }
-    
+
 }

@@ -21,8 +21,13 @@
             </MenuItem>
         </Menu>
         <Label x:FieldModifier="public" TextElement.Foreground="White" x:Name="dateText" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
-
-
+        <Image Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 30, 10, 10"/>
+        <Image Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120, 30, 10, 10"/>
+        <Image Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="230, 30, 10, 10"/>
+        <Image Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340, 30, 10, 10"/>
+        <Image Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="450, 30, 10, 10"/>
+        <Image Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="560, 30, 10, 10"/>
+        <Image Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="670, 30, 10, 10"/>
     </Grid>
 
     
