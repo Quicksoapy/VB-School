@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.IO;
 using System.Windows.Media.Imaging;
+using System.Windows.Controls;
 
 namespace WpfApp1
 {
@@ -27,11 +28,12 @@ namespace WpfApp1
                 return bitmapimage;
             }
         }
-        public void switcheroo(Cum1 cum1)
+        public void switcheroo(System.Windows.Controls.Image cum1)
         {
             slot1 = Interaction.InputBox("Add a program", "Add","");
             cum1.Source = BitmapToImageSource(System.Drawing.Icon.ExtractAssociatedIcon(slot1).ToBitmap());
     }
-        
+
+ 
     }
 }
