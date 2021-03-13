@@ -21,6 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class Options : Window
     {
+        public static bool CumZone = false;
         public Options(MainWindow mainWindow)
         {
             _mainwindow = mainWindow;
@@ -72,7 +73,7 @@ namespace WpfApp1
         }
         MainWindow _mainwindow;
 
-        public static bool CumZone = false;
+        
 
 
     }

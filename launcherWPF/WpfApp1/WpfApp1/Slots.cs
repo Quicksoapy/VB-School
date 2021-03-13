@@ -13,8 +13,9 @@ namespace WpfApp1
 {
     class Slots
     {
-        static public string slot1 = string.Empty;
-        BitmapImage BitmapToImageSource(Bitmap bitmap)
+        static public string[] slottos = new string[7];
+
+        public static BitmapImage BitmapToImageSource(Bitmap bitmap)
         {
             using (MemoryStream memory = new MemoryStream())
             {
@@ -29,10 +30,19 @@ namespace WpfApp1
                 return bitmapimage;
             }
         }
-        public void switcheroo(System.Windows.Controls.Image cum1)
+        static public void switcheroo(System.Windows.Controls.Image cum1, int number)
         {
-            slot1 = Interaction.InputBox("Add a program", "Add","");
-            cum1.Source = BitmapToImageSource(System.Drawing.Icon.ExtractAssociatedIcon(slot1).ToBitmap());
+            slottos[number] = Interaction.InputBox("Add a program", "Add","");
+            try
+            {
+                cum1.Source = BitmapToImageSource(System.Drawing.Icon.ExtractAssociatedIcon(slottos[number]).ToBitmap());
+            }
+            catch
+            {
+
+            }
+            
+            
     }
 
  

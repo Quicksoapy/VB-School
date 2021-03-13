@@ -1,0 +1,3 @@
+﻿CumZone = true
+Cum1 = C:\Program Files (x86)\Steam\steam.exe 
+Cum2 = C:\Program Files (x86)\Steam\steam.exe

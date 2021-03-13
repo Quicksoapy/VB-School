@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Information" Height="300" Width="600" Background="#060425">
+        Title="Information" Height="300" Width="600" Background="#060425" Icon="Resources/icon.ico">
 
     <Grid>
         <TextBlock Margin="10,10,0,0" TextElement.Foreground="White" x:Name="textthings">

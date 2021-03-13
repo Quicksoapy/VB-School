@@ -118,10 +118,13 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\largetile.ico" />
+    <Resource Include="Resources\empty.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\empty.jpg" />
+    <Resource Include="data.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
