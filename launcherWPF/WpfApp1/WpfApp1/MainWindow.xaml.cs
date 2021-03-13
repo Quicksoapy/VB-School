@@ -13,7 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.VisualBasic;
-
+using System.Drawing;
+using System.IO;
 
 namespace WpfApp1
 {
@@ -22,12 +23,13 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
              
             
-                this.dateText.Content = DateTime.Now.ToString("HH:mm");
+            this.dateText.Content = DateTime.Now.ToString("HH:mm");
             
         }
         
@@ -63,13 +65,13 @@ namespace WpfApp1
 
         private void imgSlot1(object sender, RoutedEventArgs e)
         {
-            if (slot1 == null)
+            if (string.IsNullOrEmpty(Slots.slot1))
             {
                 MessageBox.Show("You haven't added a program yet", "no");
             }
              else
             {
-                System.Diagnostics.Process.Start(slot1);
+                System.Diagnostics.Process.Start(Slots.slot1);
             }  
         }
         private void imgSlot2(object sender, RoutedEventArgs e)
@@ -97,10 +99,11 @@ namespace WpfApp1
             this.Close();
         }
 
+        
 
         public void btnSlot1(object sender, RoutedEventArgs e)
         {
-            string slot1 = Interaction.InputBox("Add a program", "Add","");
+            Slots.switcheroo(Cum1);
         }
 
         private void btnSlot2(object sender, RoutedEventArgs e)
