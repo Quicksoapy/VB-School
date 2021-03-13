@@ -7,6 +7,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Media.Imaging;
 using System.Windows.Controls;
+using Microsoft.VisualBasic;
 
 namespace WpfApp1
 {
