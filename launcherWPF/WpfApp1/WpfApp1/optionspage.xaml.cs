@@ -18,6 +18,7 @@ using Microsoft.Win32;
 
 
 
+
 namespace WpfApp1
 {
     /// <summary>
@@ -77,16 +78,6 @@ namespace WpfApp1
 
         }
         MainWindow _mainwindow;
-
-        private void atOff(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void atOn(object sender, RoutedEventArgs e)
-        {
-            
-        }
     }
     public partial class Options : INotifyPropertyChanged
     {
@@ -111,5 +102,6 @@ namespace WpfApp1
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        
     }
 }
