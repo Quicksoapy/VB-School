@@ -27,7 +27,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            //if theres a save file, load it. If there is none, suck a dick
+            //if theres a save file, load it. If there is none, do nothing
             //if DayTime = true, change. If false, nothing
             //Change images + the links
             if (File.Exists("data.txt"))
