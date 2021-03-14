@@ -12,6 +12,7 @@
     <Grid>
         <RadioButton Name="DayMode" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" TextElement.Foreground="White" Checked="rbLight">Light Mode</RadioButton>
         <RadioButton Name="NightMode" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0" TextElement.Foreground="White" Checked="rbDark">Dark Mode</RadioButton>
-      
+        <RadioButton Name="AutoTurnOff" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,10,10,10" TextElement.Foreground="White" Checked="atOff">Not turn on at startup</RadioButton>
+        <RadioButton Name="AutoTurnOn" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,30,10,10" TextElement.Foreground="White" Checked="atOn">Turn on at startup</RadioButton>
     </Grid>
 </Window>

@@ -13,6 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Microsoft.Win32;
+
+
+
 
 namespace WpfApp1
 {
@@ -21,6 +25,7 @@ namespace WpfApp1
     /// </summary>
     public partial class Options : Window
     {
+        
         public static bool DayTime = false;
         public Options(MainWindow mainWindow)
         {
@@ -73,9 +78,15 @@ namespace WpfApp1
         }
         MainWindow _mainwindow;
 
-        
+        private void atOff(object sender, RoutedEventArgs e)
+        {
+            
+        }
 
-
+        private void atOn(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
     public partial class Options : INotifyPropertyChanged
     {
