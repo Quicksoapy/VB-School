@@ -24,7 +24,7 @@ namespace WpfApp1
         }
         public static void SetMode(Window window, params dynamic[] controls)
         {
-            if (Options.CumZone)
+            if (Options.DayTime)
             {
                 LightMode(window);
                 for (int i = 0; i < controls.Length; i++)

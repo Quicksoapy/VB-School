@@ -22,13 +22,13 @@
             </MenuItem>
         </Menu>
         <Label x:FieldModifier="public" TextElement.Foreground="White" x:Name="dateText" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
-        <Image x:Name="Cum1" MouseLeftButtonUp="imgSlot1" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 30, 10, 10"/>
-        <Image x:Name="Cum2" MouseLeftButtonUp="imgSlot1" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120, 30, 10, 10"/>
-        <Image x:Name="Cum3" MouseLeftButtonUp="imgSlot3" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="230, 30, 10, 10"/>
-        <Image x:Name="Cum4" MouseLeftButtonUp="imgSlot4" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340, 30, 10, 10"/>
-        <Image x:Name="Cum5" MouseLeftButtonUp="imgSlot5" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="450, 30, 10, 10"/>
-        <Image x:Name="Cum6" MouseLeftButtonUp="imgSlot6" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="560, 30, 10, 10"/>
-        <Image x:Name="Cum7" MouseLeftButtonUp="imgSlot7" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="670, 30, 10, 10"/>
+        <Image x:Name="File1" MouseLeftButtonUp="imgSlot1" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10, 30, 10, 10"/>
+        <Image x:Name="File2" MouseLeftButtonUp="imgSlot1" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120, 30, 10, 10"/>
+        <Image x:Name="File3" MouseLeftButtonUp="imgSlot3" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="230, 30, 10, 10"/>
+        <Image x:Name="File4" MouseLeftButtonUp="imgSlot4" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340, 30, 10, 10"/>
+        <Image x:Name="File5" MouseLeftButtonUp="imgSlot5" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="450, 30, 10, 10"/>
+        <Image x:Name="File6" MouseLeftButtonUp="imgSlot6" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="560, 30, 10, 10"/>
+        <Image x:Name="File7" MouseLeftButtonUp="imgSlot7" Source="Resources/empty.jpg" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="670, 30, 10, 10"/>
         <Button Click="btnSlot1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="40, 140, 10, 10">Add</Button>
         <Button Click="btnSlot2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="150, 140, 10, 10">Add</Button>
         <Button Click="btnSlot3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Margin="260, 140, 10, 10">Add</Button>

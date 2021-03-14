@@ -30,12 +30,12 @@ namespace WpfApp1
                 return bitmapimage;
             }
         }
-        static public void switcheroo(System.Windows.Controls.Image cum1, int number)
+        static public void switcheroo(System.Windows.Controls.Image image, int number)
         {
             slottos[number] = Interaction.InputBox("Add a program", "Add","");
             try
             {
-                cum1.Source = BitmapToImageSource(System.Drawing.Icon.ExtractAssociatedIcon(slottos[number]).ToBitmap());
+                image.Source = BitmapToImageSource(System.Drawing.Icon.ExtractAssociatedIcon(slottos[number]).ToBitmap());
             }
             catch
             {

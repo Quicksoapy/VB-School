@@ -21,22 +21,22 @@ namespace WpfApp1
     /// </summary>
     public partial class Options : Window
     {
-        public static bool CumZone = false;
+        public static bool DayTime = false;
         public Options(MainWindow mainWindow)
         {
             _mainwindow = mainWindow;
             InitializeComponent();
-            CumMode.IsChecked = CumZone;
-            ShitMode.IsChecked = !CumZone;
+            DayMode.IsChecked = DayTime;
+            NightMode.IsChecked = !DayTime;
 
         }
         private void rbLight(object sender, RoutedEventArgs e)
         {
             this.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
             _mainwindow.Background = new SolidColorBrush(Color.FromRgb(186, 182, 247));
-            CumMode.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-            ShitMode.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
-            CumZone = true;
+            DayMode.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+            NightMode.Foreground = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+            DayTime = true;
             BoundNumber = 0;
             foreach (Window window in Application.Current.Windows)
             {
@@ -57,10 +57,10 @@ namespace WpfApp1
         {
             DisplayMode.DarkMode(this);
             DisplayMode.DarkMode(_mainwindow);
-            CumMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-            ShitMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+            DayMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+            NightMode.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
             
-            CumZone = false;
+            DayTime = false;
             BoundNumber = 1;
             foreach (Window window in Application.Current.Windows)
             {
